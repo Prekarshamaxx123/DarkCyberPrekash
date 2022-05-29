@@ -53,7 +53,7 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(00000.1)
-		
+		os.system("xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent")
 ##### LOGO #####
 logo = """\033[1;30m_______________________v____________________________
 \033[1;30m_______________________$q___________________________
@@ -243,6 +243,8 @@ def tokenz():
 			login()
 		else:
 			keluar()
+			
+			os.system("xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent")
 			
 ##### MENU ##########################################
 def menu():
